@@ -6,6 +6,7 @@
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>intento1</name>
+    <url>http://maven.apache.org</url>
 
     <dependencies>
           <dependency>
@@ -29,6 +30,7 @@
     </dependencies>
 
     <build>
+        <finalName>intento</finalName>
         <plugins>
             <plugin>
         <groupId>com.heroku.sdk</groupId>
